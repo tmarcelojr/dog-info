@@ -1,0 +1,47 @@
+body {
+  margin: 20px;
+  background-color: blanchedalmond;
+}
+
+.App {
+  text-align: center;
+}
+
+
+.header {
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(66, 38, 187);
+}
+#update-img {
+margin-top: 10%;
+border: green solid 5px;
+border-radius: 20px;
+height: 35vh;
+width: 50vh;
+}
+
+button {
+  margin: 10px;
+  padding: 5px;
+}
+
+.search {
+  /* width: auto; */
+  font-size: 20px;
+}
+
+.newPage {
+  margin-top: 70px;
+  padding: 10px;
+  border: 2px solid burlywood;
+  box-shadow: 5px 3px 5px 3px lightgray  ;
+  color: blue;
+  cursor: pointer;
+  font-size: 15px;
+
+}
+
+
+
+
