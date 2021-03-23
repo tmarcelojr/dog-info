@@ -1,13 +1,15 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom'
 
-const Nav = (props) => {
-
-    return (
+const Nav = () => {
+	return (
         <div>
-            <button className="newPage" onClick={() => props.redirect("all-dogs")}>Click here to get all the dogs</button>
-            {/* <div>{props.redirect}</div> */}
+            <ul>
+                <Link to='/home'>Home</Link>
+                <Link to='/alldogs'>All Dogs</Link>
+            </ul>
         </div>
     )
-}
+};
 
-export default Nav
+export default Nav;
